@@ -1,5 +1,7 @@
 # 3ds-Max-Cube-Generator-v1.0
 小方块生成器
+<img width="1920" height="1030" alt="C" src="https://github.com/user-attachments/assets/3782f886-209a-4739-a16f-446d8fd1c32c" />
+<img width="1920" height="1030" alt="E" src="https://github.com/user-attachments/assets/4e423779-ceb1-4746-8c6d-60a6a065b131" />
 
 ————————————————————————————————————————————————————————
 用途描述
