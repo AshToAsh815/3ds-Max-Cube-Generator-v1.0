@@ -8,7 +8,10 @@
 通过预设管理不同游戏角色的部件名称
 保存和加载自定义预设，提高重复操作的效率
 一键导入当前选择对象的名称作为小方块命名参考
-工具适用于 3D 角色动画制作中，需要为模型添加多个蒙皮控制点的场景，可显著减少手动创建和绑定操作的时间。
+
+做鬼泣5MOD的时候，当你的模型子网格比鬼泣5的源文件少的时候，比如：原版但丁人形态的身体有9个子网格，一共七个材质名，而你的模型就一个子网格，
+那你要是不想改mdf文件里的材质数量，你就得补6个小方块一起导出，那就不用改mdf文件中的材质了
+
 ————————————————————————————————————————————————————————
 Description
 This script is a 3D modeling auxiliary tool designed to quickly generate skin-bound small cubes. It allows users to:
@@ -16,8 +19,12 @@ Capture target objects and generate single or batch skin-bound cubes
 Manage part names for different game characters through presets
 Save and load custom presets to improve efficiency in repeated operations
 Import names of currently selected objects as naming references for cubes
-The tool is suitable for 3D character animation production scenarios where multiple skin control points need to be added to models, significantly reducing the time spent on manual creation and binding operations.小方块生成器简要说明书
+
+When creating mods for Devil May Cry 5 (DMC5), if your custom model has fewer submeshes than the original DMC5 files—for instance,
+ the original Dante (Human Form) body has 9 submeshes with a total of 7 material names, but your custom model only has 1 submesh—you will need to add 6 extra small cubes to export alongside it if you want to avoid modifying the number of materials in the MDF file. 
+This way, there’s no need to edit the materials in the MDF file.
 ————————————————————————————————————————————————————————
+小方块生成器简要说明书
 适用于 3ds Max，快速生成带蒙皮的小方块，支持预设管理。
 ————————————————————————————————————————————————————————
 一、核心步骤（3 步搞定）
